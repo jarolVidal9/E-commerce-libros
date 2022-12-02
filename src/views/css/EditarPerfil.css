@@ -1,0 +1,66 @@
+.usuario{
+    text-align: center;
+    align-items: center;
+}
+.boton{
+    text-align: right;
+}
+h1{
+    font-family: monospace;
+}
+.accordion-body{
+    background-color:beige;
+}
+.row{
+    align-items: center;
+    width: 100%;
+}
+
+.datosContrasena,.datosEnvio,.formulario{
+    background-color: white;
+    /* border: 1px groove rgb(0, 0, 0);  */ 
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+}
+.perfil,.envio,.contrasena{
+    background-color: white;
+    color: #6597f8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: monospace;
+}
+body{
+    background-color: #eeeeee;
+    font-family: monospace;
+}
+
+.datosEnvio{
+    display: none;
+}
+.datosContrasena{
+    display: none;
+}
+
+.error{
+    color: red;
+    font-size: small;
+}
+.titulo{
+    color: white;
+    text-decoration: none;
+}
+a { text-decoration: none; 
+    color: white;}
+
+
+  .nav1 {
+    background-color: #e64a3f;
+  }
+
+  .nav2 {
+    background-color: #e9d4b3;
+  }
+
+  footer {
+    background-color: #c19e67;
+  }

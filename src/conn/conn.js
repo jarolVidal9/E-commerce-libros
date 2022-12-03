@@ -1,13 +1,16 @@
-var mysql = require('mysql2');
+var mysql = require('mysql');
+
+const ve = require('./config.js');
+
 
 var con = mysql.createConnection({
-    host : 'containers-us-west-96.railway.app',
-    user : 'root',
-    password :'RAWALfXwcy4jlAYnboCX',
-    port :"6623",
-    database : 'railway'
-});
 
+    host : ve.DB_HOST,
+    user : ve.DB_USER,
+    password : ve.DB_PASSWORD,
+    database : ve.DB_DATABASE,
+    port: ve.DB_PORT
+});
 
 con.connect((err) => {
     if(err) throw err;
